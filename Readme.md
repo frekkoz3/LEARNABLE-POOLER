@@ -4,7 +4,7 @@ The aim of this project is to develop a new pooling operator that is parameteriz
 
 I studied the pooling operator presented in the review "A Comparison of PoolingMethods for Convolutional Neural Networks" published in the "Applied Science" on 29th August 2022.
 
-The first part of the project is focused on implemententing Learnig Weighted Average Pooling, Gated Pooling Lp Pooling and S3 Pooling.
+The first part of the project is focused on implemententing Mixing Pooling, Gated Pooling, Lp Pooling and S3 Pooling.
 The second part of the project is focused on developing a variation on S3 Pooling that uses probability given by the Boltzmann's probability function, driven by the temperature parameter (learnable).
 The third part of the project is focused on evaluating all the pooling operators described until now.
 

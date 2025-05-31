@@ -45,3 +45,7 @@ class MixingPooling2d(nn.Module):
         alpha = torch.sigmoid(self.alpha).view(1, -1, 1, 1)
         # Blend max and average pooling using the gate
         return alpha * max_pooled + (1 - alpha) * avg_pooled
+    
+if __name__ == "__main__":
+    m = torch.ones((2, 2))
+    print(F.sigmoid(m)*2)
